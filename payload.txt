@@ -2,6 +2,7 @@ More : http://htmlpurifier.org/live/smoketests/xssAttacks.php
 
 <script>alert(123);</script>
 <script>alert("XSS");</script>
+<script>alert("XSS_A_MAHMUD");</script>
 <script>alert(String.fromCharCode(88,83,83))</script>
 <a href=javascript:alert(String.fromCharCode(88,83,83))>Click Me!</script>
 <a href=javascript:alert(&quot;XSS&quot;)>Click Me!</script>
